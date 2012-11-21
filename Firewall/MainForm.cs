@@ -11,17 +11,15 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 using System.IO;
-namespace Firewall
-{
+
+namespace Firewall{
 	/// <summary>
 	/// Description of MainForm.
 	/// </summary>
-	public partial class MainForm : Form
-	{
+	public partial class MainForm : Form{
 		private string path="C:\\windows\\system32\\drivers\\etc";
 		private string program="";
-		public MainForm()
-		{
+		public MainForm(){
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
@@ -58,7 +56,7 @@ namespace Firewall
 		}
 		
 		void saveurl(){			
-			string myurl;
+			string myurl;			
 			try{
 				if ( System.IO.Directory.Exists( path ) == true ){
 					System.IO.StreamWriter fichero = new System.IO.StreamWriter(program,false,System.Text.Encoding.Default);

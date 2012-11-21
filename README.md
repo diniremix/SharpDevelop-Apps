@@ -17,7 +17,12 @@ Clonar este repositorio y alojarlo en una carpeta conveniente
 - Manejo archivos XML
 - Manejo archivos INI
 - Manejo de bases de datos [SQLite](http://www.sqlite.org/)
-
+- Firewall Sencillo (usando el archivo hosts del sistema operativo)
+- Manejo de parametros pasados a una aplicacion
+- Traduccion de aplicaciones (usando XML)
+- Ejecucion de aplicaciones externas (usando Process)
+- World of Warcraft Launcher (usando Process)
+- Borderlands 2 Config Launcher (usando archivos INI)
 
 ### Licencia ###
 [LGPL-2.1](http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html)

@@ -126,7 +126,7 @@ namespace eyesharp{
 		
 		private void colocaimg(string img){
 			//fija una imagen en el imgbox
-			this.Text="EyeSharp - "+img;
+			this.Text="EyeSharp - "+img;			
 			imgbox.ImageLocation=img;
 		}
 		
