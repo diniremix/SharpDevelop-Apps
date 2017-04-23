@@ -69,12 +69,14 @@ namespace traducciones
 				foreach (XmlElement nodo in mnutools){
 					XmlNodeList tools = nodo.GetElementsByTagName("tools");
 					XmlNodeList options = nodo.GetElementsByTagName("options");
+					XmlNodeList translate = nodo.GetElementsByTagName("translate");
 					//si hay informacion en los nodos se extrae
 					try{
 						for (int i = 0; i < tools.Count; i++){
 							
 							herramientasToolStripMenuItem.Text="&"+tools[i].InnerText;
 							opcionesToolStripMenuItem.Text="&"+options[i].InnerText;
+							traducirToolStripMenuItem.Text="&"+translate[i].InnerText;
 						}
 					}
 					catch (NullReferenceException e){
