@@ -1,0 +1,38 @@
+<idiomas>
+	<english>
+		<mnufile>
+			<file>File</file>
+			<nuevo>New</nuevo>
+			<abrir>Open</abrir>
+			<cerrar>Close</cerrar>
+			<salir>Exit</salir>
+		</mnufile>
+		<mnutools>
+			<tools>Tools</tools>
+			<options>Settings</options>
+			<translate>Translate</translate>
+		</mnutools>
+		<mnuhelp>
+			<help>Help</help>
+			<about>About</about>
+		</mnuhelp>
+	</english>
+	<spanish>
+		<mnufile>
+			<file>Archivo</file>
+			<nuevo>Nuevo</nuevo>
+			<abrir>Abrir</abrir>
+			<cerrar>Cerrar</cerrar>
+			<salir>Salir</salir>
+		</mnufile>
+		<mnutools>
+			<tools>Herramientas</tools>
+			<options>Opciones</options>
+			<translate>Cambiar idioma</translate>
+		</mnutools>
+		<mnuhelp>
+			<help>Ayuda</help>
+			<about>Acerca de</about>
+		</mnuhelp>
+	</spanish>
+</idiomas>
