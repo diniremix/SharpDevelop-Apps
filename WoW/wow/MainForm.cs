@@ -42,7 +42,7 @@ namespace wow
 		}
 		
 		private void launch_game(string parameters){
-			if ( System.IO.File.Exists( "wow.exe" ) == true ){
+			if ( System.IO.File.Exists( "wow_launcher.exe" ) == true ){
 				Process p = new Process();
 				p.StartInfo.FileName = "wow.exe";
 				p.StartInfo.Arguments = parameters;
@@ -51,7 +51,7 @@ namespace wow
 				//ExternalProcess.StartInfo.WindowStyle = ProcessWindowStyle.Maximized;
 				p.Start();
 			}else{
-				MessageBox.Show("No se puede lanzar el ejecutable con los parametros "+parameters,"Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
+				MessageBox.Show("No se puede lanzar el ejecutable con los parametros enviados","Error",MessageBoxButtons.OK,MessageBoxIcon.Error);
 			}
 		}
 	}
